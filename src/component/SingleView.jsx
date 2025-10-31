@@ -26,7 +26,7 @@ export default function SingleView() {
   if (!product) return <p>Loading...</p>;
 
   return (
-   <div style={{ padding: '80px', display: 'flex', gap: '40px', alignItems: 'flex-start' }}>
+   <div style={{ padding: '80px', display: 'flex', gap: '30px', alignItems: 'flex-start' }}>
  
   <div>
     <img src={product.image} alt={product.title} width="350" height="350" />
